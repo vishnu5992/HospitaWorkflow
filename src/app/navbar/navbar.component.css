@@ -1,0 +1,40 @@
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flow{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 700px;
+}
+.ref{
+    position: relative;
+    display: flex;
+    float: right;
+    width: 150px;
+    list-style: none;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+.hospital{
+    margin: 0px;
+    color: azure;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 684px;
+}

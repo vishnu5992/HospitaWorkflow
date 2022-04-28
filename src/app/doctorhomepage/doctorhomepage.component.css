@@ -1,0 +1,13 @@
+.content{
+    text-align: center;
+    background-color: whitesmoke;
+    height: 60px;
+    padding: 40px;
+}
+.btn{
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}

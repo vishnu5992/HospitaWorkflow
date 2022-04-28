@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="https://use.fontawesome.com/72f3d00eee.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1>HOSPITAL WORKFLOW</h1>
+        <ul class="flow">
+            <li>
+            <div class="nav"></div>
+            <div class="nav"></div>
+            <div class="nav"></div>
+            </li>
+        </ul>
+        <ul class="ref">
+            <li><button class="logout_btn" routerLink="/home">Home</button></li>
+            <li><button class="admin_btn" routerLink="/home">Logout</button></li>
+        </ul>
+      </nav>
+      <div class="sidebar" style="margin-top:0px; margin-left: 9px;">
+    
+        <img src="../../assets/patietlogin.png" class="profile_image" alt="">
+        
+        <h4 style="color: rgb(255, 255, 255);"> Patient </h4>
+  
+  
+  
+      <a><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+      <a  routerLink="/doctorspeciality" routerLinkActive="Active"><i class="fas fa-history"></i><span>Doctor Speciality</span></a>
+      <a  routerLink="/createappoinment" routerLinkActive="Active"><i class="fas fa-history"></i><span>Create Appointment</span></a>
+      <a  routerLink="/createfeedback"routerLinkActive="active"><i class="fas fa-question-circle"></i><span>FeedBack</span></a>
+      <a  routerLink="/appoimentstatusforpatient"routerLinkActive="active"><i class="fas fa-question-circle"></i><span>Appoinment Status</span></a>
+
+    </div>
+    
+       
+</body>
+</html>

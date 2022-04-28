@@ -1,0 +1,123 @@
+*{
+    margin: 0px;  
+  }
+  .nav{
+      width: 30px;
+      height: 2px;
+      background-color: white;
+      margin: 6px 0;
+  }
+  .navbar{
+      margin-top: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      list-style: none;
+      background: #22242A;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px;
+      height: 60px;
+  }
+  .flow{
+      display: flex;
+      align-items: center;
+      width: 300px;
+      justify-content: space-between;
+      list-style: none;
+      margin-right: 600px;
+  }
+  .ref{
+      position: relative;
+      display: flex;
+      float: right;
+      width: 150px;
+      list-style: none;
+      justify-content: space-between;
+  }
+  h1{
+      color: white;
+      
+  }
+  .logout_btn {
+      padding: 5px;
+      background: #19B3D3;
+      text-decoration: none;
+      float: right;
+      border-radius: 2px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+      transition: 0.5s;
+    
+    }
+    .admin_btn {
+      padding: 5px;
+      background: #19B3D3;
+      text-decoration: none;
+      float: right;
+      border-radius: 2px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+      transition: 0.5s;
+    
+    }
+    .logout_btn:hover {
+      background: #0B87A6;
+    }
+    .admin_btn:hover{
+      background: #0B87A6;
+  
+    }
+    .sidebar {
+      background: #2f323a;
+      margin-top: 70px;
+      padding-top: 30px;
+      position: fixed;
+      left: 0;
+      width: 230px;
+      height: 100%;
+      transition: 0.5s;
+    }
+    
+    .sidebar .profile_image {
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      margin-bottom: 10px;
+      text-align:center;
+    }
+    .sidebar h4 {
+      color: #ccc;
+      margin-top: 0;
+      margin-left: 30%; 
+    }
+      
+    .sidebar img {
+      color: #ccc;
+      margin-top: 0;
+      margin-left: 20%;
+      
+    }
+    
+    
+    .sidebar a {
+      color: #fff;
+      display: block;
+      width: 100%;
+      line-height: 60px;
+      text-decoration: none;
+      padding-left: 40px;
+      box-sizing: border-box;
+      transition: 0.5s;
+    
+    }
+    
+    .sidebar a:hover {
+      background: #19B3D3;
+    }
+    
+    .sidebar i {
+      padding-left: 10px;
+    }
+    

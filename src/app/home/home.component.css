@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+}
+/* #firstimg{
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+} */
+body{
+    background-image: url("../../assets/img1.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.title{
+    position: relative;
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+  margin-top:-20px ;
+  height: 20px;
+  padding: 5px;
+}
+button{
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover {
+      opacity: 0.7;
+    }
+    footer {
+        padding: 50px;
+        background-color: black;
+        margin: 0px;
+      }
+.fa{
+    text-align: center;
+    font-size: 20px;
+    width: 20px;
+    padding: 20px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.5;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-whatsapp {
+    background: #25d366;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: rgb(215, 12, 80);
+    color: white;
+  }
+
+  #icon{
+    text-align: center;
+
+  }
+  .foot{
+      margin-top: 10px;
+      height: 370px;
+      background-color: silver;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      
+  }
+  .list{
+    text-decoration: none;
+  }
+  .address{
+    position: relative;
+    margin-top: -120px;
+  }
+  .links{
+    position: relative;
+    margin-top: -80px;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  .type{
+    position: absolute;
+    margin-top: 300px;
+  }
+  .card3{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  

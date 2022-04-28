@@ -1,0 +1,17 @@
+<nav class="nav">
+    <a (click)="changeImage()" class="hospital" routerLink="home">HOSPITAL WORKFLOW</a>
+    <ul class="flow">
+      <li><a (click)="changeImage()" routerLink="admin">Admin</a></li>
+      <li><a (click)="changeImage()" routerLink="doctor">Doctor</a></li>
+      <li><a (click)="changeImage()" routerLink="patient">Patient</a></li>
+    </ul>
+    <ul class="ref">
+      <li><a (click)="changeImage()" routerLink="">About</a></li>
+      <li><a (click)="changeImage()" routerLink="">Contact Us</a></li>
+
+    </ul>
+
+</nav>
+<div>
+  <img *ngIf="imgVisible" src="../../assets/hospital.png" alt="hospital">
+</div>
