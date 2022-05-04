@@ -25,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppoinmentstatusforpatientComponent } from './appoinmentstatusforpatient/appoinmentstatusforpatient.component';
 import { DoctorspecialityComponent } from './doctorspeciality/doctorspeciality.component';
 import { AlldoctorsComponent } from './alldoctors/alldoctors.component';
-
+import { RegisterService } from './register.service';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,15 +50,16 @@ import { AlldoctorsComponent } from './alldoctors/alldoctors.component';
     AppoinmentstatusComponent,
     AppoinmentstatusforpatientComponent,
     DoctorspecialityComponent,
-    AlldoctorsComponent
+    AlldoctorsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [RegisterService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

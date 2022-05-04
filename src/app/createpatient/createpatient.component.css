@@ -38,3 +38,6 @@ margin-left: 430px;
       text-decoration: none;
       cursor: pointer;
   }
+  span{
+      color: red;
+  }
